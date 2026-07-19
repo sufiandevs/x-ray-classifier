@@ -116,7 +116,7 @@ if os.path.exists(LOGO_PATH):
     st.markdown(f"""
     <div style="text-align: center;">
         <img src="data:image/jpeg;base64,{encoded_string}" class="animated-logo" width="150">
-        <p style="text-align: center;">Deep Vision Logo</p>
+        <p style="text-align: center;">Deep Vision.ai</p>
     </div>
     """, unsafe_allow_html=True)
 else:
