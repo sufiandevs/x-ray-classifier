@@ -19,7 +19,7 @@ GOOGLE_DRIVE_FILE_ID = "1FnV4ptDjiyE7ugLTfAsvYEkwMnMWpCYu" # <--- USER MUST UPDA
 IMG_SIZE = (150, 150)
 CLASS_NAMES = ["NORMAL", "PNEUMONIA"]
 HISTORY_FILE = "training_history.json" # Relative path, assuming app.py is in the same directory as this file
-LOGO_PATH = "/content/deep_vison logo.jpg" # Absolute path to the company logo
+LOGO_PATH = "deep_vison logo.jpg" # Absolute path to the company logo
 
 # --- Model Loading (with caching for Streamlit) --- #
 @st.cache_resource
